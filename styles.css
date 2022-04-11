@@ -1,5 +1,5 @@
 body {
-  background: #ddd;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages7.alphacoders.com%2F984%2Fthumb-1920-984422.jpg&f=1&nofb=1);
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -10,7 +10,7 @@ body {
 .favorites {
 	background-color: #e3f294;
 	border: none;
-	display: flex;
+	display: inline-block;
 	text-align: center;
 	border-radius: 12px;
 	margin: 10px;
@@ -48,7 +48,13 @@ input {
 	display: block;
 }
 
+.check {
+	display: flex;
+	flex-direction: column
+}
+
 img {
 	max-width: 500px;
 }
+
 
